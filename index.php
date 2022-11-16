@@ -362,16 +362,16 @@ if ( $_SESSION['logged'] == true ) {
             }
             ?>
             <div class="form-group">
-              <input type="email" class="form-control" id="#" placeholder="Twój e-mail..." name="login" />
+              <input type="email" class="form-control" placeholder="Twój e-mail..." name="login" />
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" id="#" placeholder="Twoje hasło...." name="password" />
+              <input type="password" class="form-control" placeholder="Twoje hasło...." name="password" />
             </div>
             <button type="submit" name="submit_button_login" class="btn btn-warning btn-block btn-round">Zaloguj się</button>
           </form>
 			<div class="d-flex justify-content-center social-buttons mb-3">
 					<?php
-						echo '<a href="'.$facebook_login_url.'"><button  type="button" class="btn btn-primary btn-round mt-3" data-toggle="tooltip" data-placement="top" title="Facebook">Albo użyj facebooka <i class="bi bi-facebook"></i></button></a>';					
+						echo '<a href="'.$facebook_login_url.'"><button type="button" class="btn btn-primary btn-round mt-3" data-toggle="tooltip" data-placement="top" title="Facebook">Albo użyj facebooka <i class="bi bi-facebook"></i></button></a>';					
 					?>				
 			</div>
           
@@ -435,7 +435,7 @@ if ( $_SESSION['logged'] == true ) {
             }
             ?>
             <div class="form-group">
-              <input autocomplete="new-email" type="email" class="form-control" id="#" placeholder="Twój e-mail..." name="email" value="<?php
+              <input autocomplete="new-email" type="email" class="form-control" placeholder="Twój e-mail..." name="email" value="<?php
 											if (isset($_SESSION['fr_email']))
 											{
 												echo $_SESSION['fr_email'];
@@ -450,10 +450,10 @@ if ( $_SESSION['logged'] == true ) {
             }
             ?>
             <div class="form-group">
-              <input type="password" class="form-control" id="#" placeholder="Twoje hasło..." name="password1"/>
+              <input type="password" class="form-control" placeholder="Twoje hasło..." name="password1"/>
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" id="#" placeholder="Potwierdź hasło..." name="password2" />
+              <input type="password" class="form-control" placeholder="Potwierdź hasło..." name="password2" />
             </div>
             <?php
             if ( isset( $_SESSION[ 'e_bot' ] ) ) {
