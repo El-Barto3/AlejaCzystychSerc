@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.overlay{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: rgba(0,0,0,0.63);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.overlay:hover{
+	opacity: 1;
+
+}
+
+.ctr {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 30%;
+}
+
+.picture
+{
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	
+	
+}
+
+.picture_size
+{
+	width: 350px;
+	height: 350px;
+}
+
+.ozyw_przycisk
+{
+	padding-bottom: 30%;
+}

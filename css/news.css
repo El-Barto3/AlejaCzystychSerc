@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.person{
+	background-color: rgba(11,11,11,0.5);
+}
+
+.infos{
+	background-color: rgba(18,15,0,0.5);
+}
+
+.funerals{
+	background-color: rgba(36,36,36,0.5);
+}
+
+.events{
+	background-color: rgba(50,0,0,0.5);
+}
