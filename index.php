@@ -462,7 +462,7 @@ if ( $_SESSION['logged'] == true ) {
             }
             ?>
             <div class="form-group text-xs-center">
-              <div class="g-recaptcha" data-sitekey="6LfjU68aAAAAANvY8AttqWZjO2jC6bwk30EL-Dby"></div>
+              <div class="g-recaptcha" data-sitekey="6LcaWBUjAAAAAFSMx37SAx_ph2mDw8Lepb5WbfYz"></div>
             </div>
             <?php
             if ( isset( $_SESSION[ 'e_regulamin' ] ) ) {

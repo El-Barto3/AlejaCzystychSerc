@@ -54,7 +54,7 @@
 		}				
 		
 		//ReCaptcha sprawdza poprawność
-		$sekret = "6LfjU68aAAAAAH8lCLZGPf_yydddrb4MJbq-6phd";
+		$sekret = "6LcaWBUjAAAAAMEirFEq1xyBO7-Krjl0244i_xuz";
 		
 		$sprawdz = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$sekret.'&response='.$_POST['g-recaptcha-response']);
 		
